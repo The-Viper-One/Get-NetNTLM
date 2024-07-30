@@ -1,6 +1,8 @@
 # Get-NetNTLM
 Fork of Get-NetNTLM. This fork includes a fix for calculating NTLMv1 hashes.
 
+Original Author: https://github.com/elnerd/Get-NetNTLM
+
 ### Load into memory
 ```
 IEX(New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/The-Viper-One/Get-NetNTLM/master/Get-NetNTLM.ps1")
