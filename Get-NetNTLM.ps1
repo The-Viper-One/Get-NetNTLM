@@ -11,7 +11,7 @@ function Get-NetNTLM-Hash {
     This hash can be cracked in tools such as Hashcat or John-The-Ripper to find the corresponding plaintext 
 
 .FORK CHANGES
-    Adjustment made to the Decode-NTLM function to crrectly NTLMv1 hashes.
+    Adjustment made to the Decode-NTLM function to correctly calculate NTLMv1 hashes.
 
 .EXAMPLE
     PS C:\> Get-NetNTLM-Hash
