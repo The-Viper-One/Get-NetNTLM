@@ -6,7 +6,7 @@ Fork of Get-NetNTLM. This fork includes a fix for calculating NTLMv1 hashes.
 IEX(New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/The-Viper-One/Get-NetNTLM/master/Get-NetNTLM.ps1")
 ```
 
-```
+```bash
 Get-NetNTLM-Hash
 
 # NTLMv2 Output
